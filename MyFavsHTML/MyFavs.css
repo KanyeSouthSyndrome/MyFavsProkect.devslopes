@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      HTML Table
+    </title>
+    <meta 
+     name="author" content="Kumail Dawood">
+      <link rel="stylesheet" href="./MyFavs.css">
+  </head>
+  <body>
+    <img src="https://cdn-images-1.medium.com/max/184/1*RjJ-iEftvBK7NPv1OS8Tcg@2x.png">
+    <h1>
+      My Favorite Things
+    </h1>
+    <h2>
+      Below is my "favorites" .html table project for Devslopes Academy!
+    </h2>
+        <ol>
+          <li>
+            Page Header
+          </li>
+          <li>Table</li>
+          <li>Table headers for each category (favorite / not favorite)</li>
+          <li>
+            <strong>Five</strong> rows
+          </li>
+          <li>Each row will have two cells. (One cell for "favorite" and "not favorite")</li>
+          <li>Each cell must include a title, image, and an <b>ordered list of 2-3 reasons why it's your favorite/not favorite thing.</b>
+          </li>
+          <li>All images should include proper attributes to meet W3C guidelines</li>
+          <li>
+            Try to use images no larger than 256x256 to keep a "balanced" looking table.
+          </li>
+          <li>
+            Post a screenshot of your finished exercise in the #post-your-exercises channel on             Discord
+          </li>
+        </ol>
+    <h3></h3>
+ <table>
+   <tr>
+     <th>
+ Favorites :)
+      </th>
+     <th>Least Favorite >:(</th>
+    </tr>
+      
+      <tr>
+        <td>
+          Favorite Boxer
+          <img        src="https://imageio.forbes.com/specials-images/imageserve/517259310/Forbes-40/960x0.jpg?format=jpg&width=150" height="150" align="right">
+          <ol>
+            <li>courageous with the heart of a              lion</li>
+            <li>Stood up against those who                  wished to see him fall</li>
+            <li>He faced advsersity with an                 innate beauty and grace like no                 other.
+          </ol> 
+        </td>
+        <td>
+          Least Favorite Boxer 
+          <img        src="data:image/jpeg;base64,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" height="150" align="right">
+          <ol>
+            <li>Too much talk</li>
+            <li>He couldn't stick to a game                 plan</li>
+            <li>Just couldn't make or define his own style, but still young, still plenty of potential and confidence. 
+          </ol> 
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          Chicken Tenders wif da sauce (fav food)
+          <img src="https://www.gourmandize.com/uploads/media/new-popeyes-louisiana-kitchen-new-orleans-cajun-fried-chicken-close-up1.jpg?1391192639" height="150" align="right">
+          <ol>
+            <li>Fresh Chicken Tenders from popeyes is top tier fast food and I don't even like fast food.</li>
+            <li>Great for breakfast, lunch or dinner</li>
+            <li>Definetly not good for me but at least good protein content </li>
+          </ol> 
+        </td>
+        <td>
+          Greasy Pasta{Least Fav Food}
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/05/eb/b6/1f/greasy-pasta.jpg" height="150" align="right">
+          <ol>
+            <li>Bland, Shallow, and tasteless</li>
+            <li>Super heavy, I take one bite and I regret taking it...every. single. time</li>
+              <li>cheese and grains are usually the only taste profiles.sad.</li>
+          </ol> 
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          Favorite Way to Die
+          <img src="srchttps://media.gq-magazine.co.uk/photos/62d6db7a26c65034203c5042/1:1/w_2871,h_2871,c_limit/GettyImages-156473199.jpg" height="150" align="right">
+          <ol>
+           <li>An exciting way to go</li>
+            <li>get to put on a show for the ages</li>
+            <li>Hey...you could always win if you try :) </li>
+          </ol> 
+        </td>
+        <td>
+          Dying as a rat
+        <img src="https://miro.medium.com/max/1200/1*o983jlqyjQJzm0RXjtdxIw.jpeg" height="150" align="right">
+          <ol>
+            <li>
+              Have to live as a rat, not getting to my life, on my terms
+            </li>
+            <li>
+              always have a boss, have lived under the eye of some sort of 'supervisor' or 'overseer'
+            </li>
+              <li>
+                boring
+            </li> 
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td>
+            Favorite Ice Cream
+          <img src="https://www.smalltownwoman.com/wp-content/uploads/2015/06/Mint-Chocoalte-Chip-Ice-Cream-DSC_0473-scaled.jpg" height="150" width="150" align="right">
+            <ol>
+                <li>Interesting Flavor not offered by any other flavor</li>
+                <li>I could eat tons of it to be honest</li>
+                <li>Pairs well with ice cream sandwiches and other flavors.</li>
+            </ol>
+        </td>
+        <td>
+            Least Favorite Ice Cream
+          <img src="https://ketopots.com/wp-content/uploads/2019/05/5a-keto-chocolate-ice-cream-square.jpg" height="150" width="150" align="right">
+            <ol>
+                <li>Often times too rich and fake chocolate flavor</li>
+                <li>I'd rather go eat some chocolate bars or drink some chocolate milk</li>
+                <li>Its good, but not as good as mint chocolate chip</li>
+            </ol>
+        </td>
+      </tr>
+   
+      <tr>
+        <td>
+            Favorite Color
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEWAAABGTyZaAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=" 
+          height="150" width="150" align="right">
+            <ol>
+                <li>Works well with almosy any outfit.</li>
+                <li>Looks great on accessories like watches, bags, wallets, etc...</li>
+                <li>Pairs great with other colors</li>
+            </ol>
+        </td>
+        <td>
+            Least Favorite Color
+          <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwoKDQgICAgHCAgIBwoHBwcHBw8ICQcKFREWFhUREx8YHSggGCYlJxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDggODxAQDisZHxkrNzcrKzcrKysrKysrKysrKysrKysrKysrNysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAAAAQIDBAX/xAAlEAEBAQAABQMEAwAAAAAAAAAAARECUWFxgUGR8CExobESwdH/xAAaAQEBAQEBAQEAAAAAAAAAAAAAAQIDBAcG/8QAGREBAQEBAQEAAAAAAAAAAAAAAAERMUEC/9oADAMBAAIRAxEAPwD7yA/EPmKiHcFSKALEWNKIpRRSJacFKkXANEWX0AVldXV00oagBIYBpFwFPsJpfANRWV1VXwIKrmio5uIAAqaAtN/KKoARRQwFWGoLxQhpEQoJRVVIA0MtCmiBpoACrIysVY14EVV1xRYlc3JaIApKQAAgKIqgqLKqh3TfX1XQQAFQEFDQUXQUAACCyCosKQVc6C5eg1jWOB+SDm4H6VAVYHcgJs9ViAjQgqqIAoigB7AAAKIQVVRRUVFih3ajKyq0e7fBGG+FYvz11/jBj+Q6O2PJIsId3meIExVUlIeACkDQURaoUAFQNFFiHuCpaAGrEWIRQgrRKsIsVYlWFIoLDsRYq7flUzuNumvPAkK87zEP6BQ0IYATuuIAKKAJbgLomaINCKqpTTBA0gA0IqqvUBVGp4ZxqVY1Ai1mKNeaqb3VW3CCQrlrzhCGgFoAonYUWggKUgKENAFQAhUjSCQ6qKEWIqqqQhBWhBVjUCCtLs6qyqta88VIrk86VZ4BEKQo0pgAgH7BTQ0qAQJe4KIooaqKLAAFQFVUVVJBGlUgHRVN+YqeyquuHCqcK1ycDAPuKLCCiCp7gQFBMLzVEBFw+nIADAWCKAqGqpO7TM6KsFzmlXUFWH4DRWoMi6avkQTV1zis8LVYcgRVXVEIoqLYgCgEABRIqCLgdkA6hPquIAChq6kBTViALoAKmgKAA58LTE6t73ZjEQVAWKkVpYJVLARdMIC1MU1VEwVBPYVL8oLCkFEFiIGgoJBUAWIoBogKIA58LWM8DTEYhoi6qrgUjQWqApCCiiT0WoIpUUVIqRYoAAJigAABQqCCoAoAngBRiKzK0wxAxQUEzrWmlC8gAm+uFFwVCCqEgCCaoKAAHMAAAAKAAIBgqiBgDjG2I05ucXVOEajQqKqipAU5LEAWifcUVF0QFQUBUAAFXUAQAACKCKgKvgQEco0Dm5xYoN+NpWkBIeqAKpyACr/iAoABFBRQATmAByOIAIABFAAAUAB//9k=" height="150" width="150"align="right">
+            <ol>
+                <li>Works well with smaller items but too bright</li>
+                <li>Can pair okay with other colors but only works well as a monotone</li>
+                <li>has potential for graphic design but kind of overplayed</li>
+            </ol>
+        </td>
+      </tr>
+     </table>
+        
+    
+    
+    
+  </body>
+  
+  
+</html> 
